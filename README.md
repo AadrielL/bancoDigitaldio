@@ -1,18 +1,66 @@
-# Criando um Banco Digital com Java e Orientação a Objetos
+# 💰 Banco Digital DIO
 
-## 02/08/2021 - [Mentoria #1: Tire Suas Dúvidas Sobre Orientação a Objetos](https://www.youtube.com/watch?v=YS6ouOhkyNI)
+Este é um projeto de simulação de um banco digital, desenvolvido como parte do desafio da **Digital Innovation One (DIO)**. O foco é reforçar os conceitos de **Programação Orientada a Objetos (POO) em Java**, aplicando herança, encapsulamento, abstração e polimorfismo.
 
-Desafio: Considerando nosso conhecimento no domínio bancário, iremos abstrair uma solução Orientada a Objetos em Java. Para isso, vamos interpretar o seguinte cenário:
-“Um banco oferece aos seus clientes dois tipos de contas (corrente e poupança), as quais possuem as funcionalidades de depósito, saque e transferência (entre contas da própria instituição).”
+---
 
-### Abstração
-Habilidade de concentrar-se nos aspectos essenciais de um domínio, ignorando características menos importantes ou acidentais. Nesse contexto, objetos são abstrações de entidades existentes no domínio em questão.
+## 📌 Funcionalidades
 
-### Encapsulamento
-Encapsular significa esconder a implementação dos objetos, criando assim interfaces de uso mais concisas e fáceis de usar/entender. O encapsulamento favorece principalmente dois aspectos de um sistema: a manutenção e a evolução.
+- Criação de contas bancárias para diferentes clientes
+- Depósitos em contas
+- Transferência entre contas
+- Impressão de extratos
+- Contagem total de clientes
+- Identificação do cliente com maior saldo
+- Ranking de clientes por saldo (ordem decrescente)
 
-### Herança
-Permite que você defina uma classe filha que reutiliza (herda), estende ou modifica o comportamento de uma classe pai. A classe cujos membros são herdados é chamada de classe base. A classe que herda os membros da classe base é chamada de classe derivada.
+---
 
-### Polimorfismo
-Capacidade de um objeto poder ser referenciado de várias formas, ou seja, é capacidade de tratar objetos criados a partir das classes específicas como objetos de uma classe genérica. Cuidado, polimorfismo não quer dizer que o objeto fica se transformando, muito pelo contrário, um objeto nasce de um tipo e morre daquele tipo, o que pode mudar é a maneira como nos referimos a ele.
+## 🧠 Conceitos Aplicados
+
+- Classes Abstratas
+- Herança
+- Polimorfismo
+- Encapsulamento
+- Uso de `List` e ordenação com `Comparator`
+- Boas práticas de organização de código em Java
+
+---
+
+## 🖥️ Exemplo de Saída no Terminal
+
+```bash
+Quantidade total de clientes: 3
+
+Cliente com maior depósito:
+Nome: Maria
+Valor depositado: R$1500.0
+
+Ranking de clientes por saldo:
+1º - Maria | Saldo: R$1500.0
+2º - Carlos | Saldo: R$700.0
+3º - João | Saldo: R$300.0
+---
+
+## 🚀 Tecnologias
+
+- Java 17+
+- VS Code
+- Git/GitHub
+
+---
+
+## 📂 Como executar o projeto
+
+1. Clone o repositório:
+
+```bash
+git clone https://github.com/AadrielL/bancoDigitaldio.git
+
+
+🙌 Autor
+Feito com 💻 por AadrielL
+
+yaml
+Copiar
+Editar

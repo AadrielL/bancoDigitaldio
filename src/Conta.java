@@ -15,6 +15,10 @@ public abstract class Conta implements IConta {
 		this.cliente = cliente;
 	}
 
+	public Cliente getCliente() {
+		return cliente;
+	}
+	
 	@Override
 	public void sacar(double valor) {
 		saldo -= valor;
